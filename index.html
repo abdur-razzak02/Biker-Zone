@@ -28,11 +28,11 @@
   <body>
     <header class="bg-[#264653] px-5 xl:px-0">
       <div class="nav-bar max-w-screen-xl m-auto xl:pb-10">
-        <nav class="xl:flex justify-between py-10 text-xl items-center hidden">
+        <nav class="xl:flex justify-between py-7 text-xl items-center hidden">
           <div>
             <h1 class="text-[#E76F51] font-semibold text-4xl">Bike Museum</h1>
           </div>
-          <ul class="flex gap-10 text-white font-semibold items-center">
+          <ul class="flex gap-10 text-white font-medium items-center">
             <li><a href="">Home</a></li>
             <li><a href="">Shop</a></li>
             <li><a href="">News</a></li>
@@ -41,6 +41,7 @@
           </ul>
         </nav>
 
+        <!-- mobile navbar -->
         <div class="flex xl:hidden text-2xl text-white justify-between py-5">
           <div>
             <h1 class="text-[#E76F51] font-semibold">Bike Museum</h1>
@@ -49,7 +50,8 @@
         </div>
       </div>
 
-      <div class="banner max-w-screen-xl m-auto xl:flex">
+      <!-- banner -->
+      <div class=" max-w-screen-xl m-auto xl:flex">
         <div class="banner-text text-white py-5 xl:w-[50%]">
           <h1 class="text-gray-300">
             Computer-controlled digital transistorized with electronic advance
@@ -62,16 +64,15 @@
           </p>
           <button class="px-10 py-3 rounded bg-[#E76F51]">Purchase</button>
         </div>
-        <div class="banner-image pb-10 xl:w-[50%] justify-center flex">
-          <img src="images/others/extrabike.png" alt="bike" />
+        <div class="banner-image pb-10 xl:w-[50%] justify-center flex ">
+          <img src="images/others/extrabike.png" alt="bike"/>
         </div>
       </div>
     </header>
 
     <main class="max-w-screen-xl m-auto px-5 xl:px-0">
-      
-        <section id="bikes">
-        <div class="text-center">
+      <section id="bikes">
+        <div class="text-center mb-16">
           <h1 class="text-3xl font-semibold mt-16">
             Fetured Bikes In This Year
           </h1>
@@ -98,13 +99,14 @@
         </div>
       </section>
 
+      <!-- daisyui card -->
       <section id="latest-news" class="xl:my-24 xl:mb-32 mb-16">
-
         <h1 class="text-4xl font-bold text-center mb-7">Latest News</h1>
 
         <div class="xl:grid xl:grid-cols-3 xl:gap-10">
-
-          <div class="card card-compact bg-base-100 shadow-xl p-0 mb-5 xl:mb-0 border">
+          <div
+            class="card card-compact bg-base-100 shadow-xl p-0 mb-5 xl:mb-0 border"
+          >
             <figure>
               <img
                 src="images/others/latest1.png"
@@ -130,7 +132,9 @@
             </div>
           </div>
 
-          <div class="card card-compact bg-base-100 shadow-xl p-0 mb-5 xl:mb-0 border">
+          <div
+            class="card card-compact bg-base-100 shadow-xl p-0 mb-5 xl:mb-0 border"
+          >
             <figure>
               <img
                 src="images/others/latest2.png"
@@ -143,7 +147,8 @@
                 Motorcycles & Scooters
               </h2>
               <p class="text-xl text-gray-500 mb-3">
-                Scooters have an automatic transmission system and riders are required to maintain the speed only. 
+                Scooters have an automatic transmission system and riders are
+                required to maintain the speed only.
               </p>
               <div class="card-actions">
                 <button
@@ -168,7 +173,9 @@
                 2021 Honda CBR500R
               </h2>
               <p class="text-xl text-gray-500 mb-3">
-                The latest Honda CBR500R is refined, well balanced, beautifully built and peppy. First introduced in 2014, it's a stalwart of the A2 genre and is now in its third iteration.
+                The latest Honda CBR500R is refined, well balanced, beautifully
+                built and peppy. First introduced in 2014, it's a stalwart of
+                the A2 genre and is now in its third iteration.
               </p>
               <div class="card-actions">
                 <button
@@ -179,63 +186,196 @@
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
-      <section id="happy-clients" class="mb-64">
-
-        <h1 class="text-4xl font-bold text-center mb-7"> Happy <span class="text-[#E76F51]">Clients says</span></h1>
+      <section id="happy-clients" class="mb-16">
+        <h1 class="text-4xl font-bold text-center mb-7">
+          Happy <span class="text-[#E76F51]">Clients says</span>
+        </h1>
 
         <div class="xl:flex xl:gap-10">
 
-            <div class="border py-10 mb-5 rounded-xl">
-                <img src="images/others/user-1.png" alt="" class="w-[50%] m-auto mb-5">
-                <p class="text-center px-10 text-gray-500 text-xl">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+          <div class="border py-10 mb-5 rounded-xl">
+            <img
+              src="images/others/user-1.png"
+              alt=""
+              class="w-[50%] m-auto mb-5"
+            />
+            <p class="text-center px-10 text-gray-500 text-xl">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="review-star flex gap-2 justify-center mt-5">
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-regular.svg" alt="" class="w-10" />
+            </div>
+            <p class="font-semibold text-xl text-center my-5 text-blue-500">
+              Regina Miles
+            </p>
+            <p class="font-semibold text-xl text-center">Banker</p>
+          </div>
+
+          <div class="border py-10 mb-5 rounded-xl">
+            <img
+              src="images/others/user-2.png"
+              alt=""
+              class="w-[50%] m-auto mb-5"
+            />
+            <p class="text-center px-10 text-gray-500 text-xl">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="review-star flex gap-2 justify-center mt-5">
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img
+                src="images/icons/star-half-stroke-solid.svg"
+                alt=""
+                class="w-10"
+              />
+            </div>
+            <p class="font-semibold text-xl text-center my-5 text-blue-500">
+                Oprah Winfrey
+            </p>
+            <p class="font-semibold text-xl text-center">Entrepreneur</p>
+          </div>
+
+          <div class="border py-10 rounded-xl">
+            <img
+              src="images/others/user-3.png"
+              alt=""
+              class="w-[50%] m-auto mb-5"
+            />
+            <p class="text-center px-10 text-gray-500 text-xl">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="review-star flex gap-2 justify-center mt-5">
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-solid.svg" alt="" class="w-10" />
+              <img src="images/icons/star-regular.svg" alt="" class="w-10" />
+            </div>
+            <p class="font-semibold text-xl text-center my-5 text-blue-500">
+                Aretha Franklin
+            </p>
+            <p class="font-semibold text-xl text-center">Singer</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- daisyui accordion -->
+      <section id="frequent-question" class="mb-16">
+        <h1 class="text-4xl font-bold text-center mb-10 xl:mb-14">
+          Frequently <span class="text-[#E76F51]">Asked Questions</span>
+        </h1>
+
+        <div class="xl:flex">
+          <div class="faq-image mb-10 xl:mb-0 xl:w-[50%] flex justify-center">
+            <img
+              src="images/others/faq-bg.jpg"
+              alt="faq-image"
+              class="xl:h-[450px]"
+            />
+          </div>
+
+          <div class="faq-texts xl:w-[50%]">
+            <div class="collapse collapse-arrow bg-base-200 mb-5">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike.
                 </p>
-                <div class="review-star flex gap-2 justify-center mt-5">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-regular.svg" alt="" class="w-10">
-                </div>
-                <p class="font-semibold text-xl text-center my-5 text-blue-500">Regina Miles</p>
-                <p class="font-semibold text-xl text-center">Banker</p>
+              </div>
             </div>
 
-            <div class="border py-10 mb-5 rounded-xl">
-                <img src="images/others/user-2.png" alt="" class="w-[50%] m-auto mb-5">
-                <p class="text-center px-10 text-gray-500 text-xl">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+            <div class="collapse collapse-arrow bg-base-200 mb-5">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a new one?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  A bike helmet is not to be considered a one-time investment.
+                  Bike helmets have a shelf life and need to be replaced once in
+                  a while – even if they’re not involved in a crash.
                 </p>
-                <div class="review-star flex gap-2 justify-center mt-5">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-half-stroke-solid.svg" alt="" class="w-10">
-                </div>
-                <p class="font-semibold text-xl text-center my-5 text-blue-500">Regina Miles</p>
-                <p class="font-semibold text-xl text-center">Banker</p>
+              </div>
             </div>
 
-            <div class="border py-10 rounded-xl">
-                <img src="images/others/user-3.png" alt="" class="w-[50%] m-auto mb-5">
-                <p class="text-center px-10 text-gray-500 text-xl">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+            <div class="collapse collapse-arrow bg-base-200 mb-5">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                My bike has been in storage is it safe to ride?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Generally, a motorcycle can sit for about a month without
+                  someone riding it. However, any longer than that requires it
+                  to be properly prepared for storage.
                 </p>
-                <div class="review-star flex gap-2 justify-center mt-5">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
-                    <img src="images/icons/star-regular.svg" alt="" class="w-10">
-                </div>
-                <p class="font-semibold text-xl text-center my-5 text-blue-500">Regina Miles</p>
-                <p class="font-semibold text-xl text-center">Banker</p>
+              </div>
             </div>
 
+            <div class="collapse collapse-arrow bg-base-200">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                What rules should I follow when riding my bike?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  The most important rule of cycling is to wear a helmet, no
+                  matter how short your ride may be. Helmets protect your head
+                  in case of an accident and reduce the risk of brain injury.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-- daisyui footer -->
+    <footer
+      class="footer footer-center bg-base-200 text-base-content rounded p-10"
+    >
+      <nav class="flex flex-wrap justify-center text-xl font-medium gap-5">
+        <a class="link link-hover">Download Now</a>
+        <a class="link link-hover">License</a>
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Features</a>
+        <a class="link link-hover">Pricing</a>
+        <a class="link link-hover">Help</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">Privacy Policy</a>
+      </nav>
+      <nav>
+        <h1 class="text-2xl font-semibold mb-2">Get the App</h1>
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <img src="images/others/ios.png" alt="" />
+          </a>
+          <a>
+            <img src="images/others/android.png" alt="" />
+          </a>
+        </div>
+      </nav>
+      <aside>
+        <p class="text-xl font-medium">© 2024 bike. All rights reserved</p>
+      </aside>
+    </footer>
   </body>
 </html>
