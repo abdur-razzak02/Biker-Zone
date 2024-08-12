@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biker Zone</title>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/0bedbf5660.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind css & daisyui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/slider/bike1.png"
+      type="image/x-icon"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="bg-[#264653] px-5 xl:px-0">
+      <div class="nav-bar max-w-screen-xl m-auto xl:pb-10">
+        <nav class="xl:flex justify-between py-10 text-xl items-center hidden">
+          <div>
+            <h1 class="text-[#E76F51] font-semibold text-4xl">Bike Museum</h1>
+          </div>
+          <ul class="flex gap-10 text-white font-semibold items-center">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            <button class="ml-16 px-8 py-3 rounded bg-[#E76F51]">Login</button>
+          </ul>
+        </nav>
+
+        <div class="flex xl:hidden text-2xl text-white justify-between py-5">
+          <div>
+            <h1 class="text-[#E76F51] font-semibold">Bike Museum</h1>
+          </div>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="banner max-w-screen-xl m-auto xl:flex">
+        <div class="banner-text text-white py-5 xl:w-[50%]">
+          <h1 class="text-gray-300">
+            Computer-controlled digital transistorized with electronic advance
+          </h1>
+          <h2 class="py-3 text-4xl font-bold">Honda CBR 300R</h2>
+          <p class="text-gray-300 pb-5">
+            LIGHTWEIGHT CHAMPION. Here’s the secret behind the Honda CBR300R:
+            It’s a machine that delivers the best of the sportbike experience,
+            and does it in a size that makes it even more fun to ride.
+          </p>
+          <button class="px-10 py-3 rounded bg-[#E76F51]">Purchase</button>
+        </div>
+        <div class="banner-image pb-10 xl:w-[50%] justify-center flex">
+          <img src="images/others/extrabike.png" alt="bike" />
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-screen-xl m-auto px-5 xl:px-0">
+      
+        <section id="bikes">
+        <div class="text-center">
+          <h1 class="text-3xl font-semibold mt-16">
+            Fetured Bikes In This Year
+          </h1>
+          <p class="text-red-600 font-semibold mt-2 mb-16 xl:mb-20">
+            Best bike collection
+          </p>
+          <div class="xl:grid xl:grid-cols-3 xl:gap-28">
+            <img
+              src="images/slider/bike3.png"
+              alt="bike1"
+              class="mb-10 w-[100%] h-[100%]"
+            />
+            <img
+              src="images/others/feature-bike.png"
+              alt="bike2"
+              class="mb-10 w-[100%] h-[100%]"
+            />
+            <img
+              src="images/slider/bike4.png"
+              alt="bike3"
+              class="w-[100%] h-[100%]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="latest-news" class="xl:my-24 xl:mb-32 mb-16">
+
+        <h1 class="text-4xl font-bold text-center mb-7">Latest News</h1>
+
+        <div class="xl:grid xl:grid-cols-3 xl:gap-10">
+
+          <div class="card card-compact bg-base-100 shadow-xl p-0 mb-5 xl:mb-0 border">
+            <figure>
+              <img
+                src="images/others/latest1.png"
+                alt="bike"
+                class="p-5 rounded-[30px] w-[100%]"
+              />
+            </figure>
+            <div class="card-body p-5">
+              <h2 class="card-title text-3xl font-semibold">
+                Ducati XDIAVEL S-73
+              </h2>
+              <p class="text-xl text-gray-500 mb-3">
+                The XDiavel Nera will be produced in a limited-edition numbered
+                series of 500 units.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn px-10 py-3 text-white text-xl font-normal bg-[#E76F51] h-auto"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-compact bg-base-100 shadow-xl p-0 mb-5 xl:mb-0 border">
+            <figure>
+              <img
+                src="images/others/latest2.png"
+                alt="bike"
+                class="p-5 rounded-[30px] w-[100%]"
+              />
+            </figure>
+            <div class="card-body p-5">
+              <h2 class="card-title text-3xl font-semibold">
+                Motorcycles & Scooters
+              </h2>
+              <p class="text-xl text-gray-500 mb-3">
+                Scooters have an automatic transmission system and riders are required to maintain the speed only. 
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn px-10 py-3 text-black text-xl font-normal bg-transparent h-auto border-[#E76F51]"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-compact bg-base-100 shadow-xl p-0 border">
+            <figure>
+              <img
+                src="images/others/latest3.png"
+                alt="bike"
+                class="p-5 rounded-[30px] w-[100%]"
+              />
+            </figure>
+            <div class="card-body p-5">
+              <h2 class="card-title text-3xl font-semibold">
+                2021 Honda CBR500R
+              </h2>
+              <p class="text-xl text-gray-500 mb-3">
+                The latest Honda CBR500R is refined, well balanced, beautifully built and peppy. First introduced in 2014, it's a stalwart of the A2 genre and is now in its third iteration.
+              </p>
+              <div class="card-actions">
+                <button
+                  class="btn px-10 py-3 text-black text-xl font-normal bg-transparent h-auto border-[#E76F51]"
+                >
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="happy-clients" class="mb-64">
+
+        <h1 class="text-4xl font-bold text-center mb-7"> Happy <span class="text-[#E76F51]">Clients says</span></h1>
+
+        <div class="xl:flex xl:gap-10">
+
+            <div class="border py-10 mb-5 rounded-xl">
+                <img src="images/others/user-1.png" alt="" class="w-[50%] m-auto mb-5">
+                <p class="text-center px-10 text-gray-500 text-xl">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                </p>
+                <div class="review-star flex gap-2 justify-center mt-5">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-regular.svg" alt="" class="w-10">
+                </div>
+                <p class="font-semibold text-xl text-center my-5 text-blue-500">Regina Miles</p>
+                <p class="font-semibold text-xl text-center">Banker</p>
+            </div>
+
+            <div class="border py-10 mb-5 rounded-xl">
+                <img src="images/others/user-2.png" alt="" class="w-[50%] m-auto mb-5">
+                <p class="text-center px-10 text-gray-500 text-xl">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                </p>
+                <div class="review-star flex gap-2 justify-center mt-5">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-half-stroke-solid.svg" alt="" class="w-10">
+                </div>
+                <p class="font-semibold text-xl text-center my-5 text-blue-500">Regina Miles</p>
+                <p class="font-semibold text-xl text-center">Banker</p>
+            </div>
+
+            <div class="border py-10 rounded-xl">
+                <img src="images/others/user-3.png" alt="" class="w-[50%] m-auto mb-5">
+                <p class="text-center px-10 text-gray-500 text-xl">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                </p>
+                <div class="review-star flex gap-2 justify-center mt-5">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-solid.svg" alt="" class="w-10">
+                    <img src="images/icons/star-regular.svg" alt="" class="w-10">
+                </div>
+                <p class="font-semibold text-xl text-center my-5 text-blue-500">Regina Miles</p>
+                <p class="font-semibold text-xl text-center">Banker</p>
+            </div>
+
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
